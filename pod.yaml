@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
     - name: guestbook
-      image: mrdunski/guestbook:0.1
+      image: mrdunski/guestbook:0.2
       ports:
         - containerPort: 80
           name: http
